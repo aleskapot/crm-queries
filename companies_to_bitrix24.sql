@@ -74,7 +74,6 @@ FROM [CRM30].[dbo].[_Reference118] org
 WHERE 1 = 1
   AND org._Marked = 0
 -- AND org._Description = 'Compony_Name'
-    AND LEN(TRIM(COALESCE(org._Fld2187, ''))) > 13
 ORDER BY org._IDRRef
 -- OFFSET 10 ROWS -- Skip 10 rows
 -- FETCH NEXT 10 ROWS ONLY; -- Return the next 5 rows
